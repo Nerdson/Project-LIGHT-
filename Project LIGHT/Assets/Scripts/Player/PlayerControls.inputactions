@@ -80,6 +80,17 @@
                 },
                 {
                     "name": "",
+                    "id": "e37ae60c-d095-4acc-b747-f66939b0b6ca",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "StickDeadzone",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "7f011893-733b-43a6-83a6-75663a223b86",
                     "path": "<Gamepad>/rightStick",
                     "interactions": "",
@@ -97,6 +108,44 @@
                     "processors": "NormalizeVector2",
                     "groups": "",
                     "action": "Camera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Player Actions",
+            "id": "c30f0236-4aad-4aa7-ba4c-352142744487",
+            "actions": [
+                {
+                    "name": "Roll",
+                    "type": "Button",
+                    "id": "c7e8b512-ab15-4438-8060-4906a1ad5183",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2ed229a5-1dc0-46b8-b200-77c51f61fb69",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Roll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3e3cce8b-4631-4f45-a956-ebb41398df59",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Roll",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
